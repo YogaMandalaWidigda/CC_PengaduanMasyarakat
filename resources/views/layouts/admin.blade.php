@@ -10,25 +10,25 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-        
+
     @yield('css')
 
     <style>
         .btn-purple {
-            background: #6a70fc;
-            border: 1px solid #6a70fc;
+            background: #0d9433;
+            border: 1px solid #0d9433;
             color: #fff;
         }
 
         .btn-purple:hover {
-            background: #6a70fc;
-            border: 1px solid #6a70fc;
+            background: #0d9433;
+            border: 1px solid #0d9433;
             color: #fff;
         }
     </style>
 
     <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
-    
+
 </head>
 
 <body>

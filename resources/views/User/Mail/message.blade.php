@@ -12,11 +12,11 @@
         }
 
         .text-purple {
-            color: #6a70fc;
+            color: #0d9433;
         }
 
         .text-grey {
-            color: #909090;
+            color: #0d9433;
         }
 
         .btn {
@@ -25,14 +25,14 @@
         }
 
         .btn-purple {
-            background: #6a70fc;
-            border: 1px solid #6a70fc;
+            background: #0d9433;
+            border: 1px solid #0d9433;
             color: #fff;
         }
 
         .btn-purple:hover {
-            background: #6a70fc;
-            border: 1px solid #6a70fc;
+            background: #0d9433;
+            border: 1px solid #0d9433;
             color: #fff;
         }
 

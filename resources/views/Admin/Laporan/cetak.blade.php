@@ -12,8 +12,9 @@
 </head>
 <body>
     <div class="text-center">
-        <h5>Laporan Pengaduan Masyarakat</h5>
-        <h6>Ihsanfrr.githu.io</h6>
+        <h5>Laporan Pengaduan Masyarakat Sepanjang</h5>
+        <h6>Kelurahan Sepanjang, Kecamatan Taman, Kabupaten Sidoarjo, Provinsi Jawa Timur</h6>
+        <h6>Kode pos 61257</h6>
     </div>
     <div class="container">
         <table class="table">
