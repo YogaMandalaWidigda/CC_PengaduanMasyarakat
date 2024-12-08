@@ -36,8 +36,8 @@
     <div class="wrapper">
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3 class="mb-0">PEKAT</h3>
-                <p class="text-white mb-0">Pengaduan Masyarakat</p>
+                <h3 class="mb-0">Hear-U</h3>
+                <p class="text-white mb-0">Suara Masyarakat</p>
             </div>
 
             <ul class="list-unstyled components">
