@@ -10,11 +10,11 @@
 
     <style>
         body {
-            background: #6a70fc;
+            background: #0d9433;
         }
 
         .btn-purple {
-            background: #6a70fc;
+            background: #0d9433;
             width: 100%;
             color: #fff;
         }
@@ -45,7 +45,7 @@
                         </form>
                     </div>
                 </div>
-                
+
                 <a href="{{ route('pekat.index') }}" class="btn btn-warning text-white mt-3" style="width: 100%">Kembali
                     ke Halaman Utama</a>
             </div>

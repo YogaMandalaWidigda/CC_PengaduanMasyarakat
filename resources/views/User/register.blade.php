@@ -4,18 +4,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
     body {
-        background: #6a70fc;
+        background: #0d9433;
     }
 
     .btn-purple {
-        background: #6a70fc;
+        background: #0d9433;
         width: 100%;
         color: #fff;
         font-weight: 600;
     }
 
     .btn-purple:hover {
-        background: #6a70fc;
+        background: #0d9433;
         width: 100%;
         color: #fff;
         font-weight: 600;
@@ -48,6 +48,7 @@
         color: #fff;
         font-weight: 600;
     }
+
 
 </style>
 @endsection
@@ -116,10 +117,9 @@
                         <button type="submit" class="btn btn-purple">DAFTAR</button>
                     </form>
                     <div class="text-center">
-                        <p class="my-3 text-secondary">Gunakan Akun Media Sosial Anda</p>
+                        <p class="my-3 text-secondary">𝘑𝘪𝘬𝘢 𝘴𝘢𝘭𝘢𝘩 𝘪𝘯𝘱𝘶𝘵 𝘥𝘢𝘵𝘢 𝘴𝘪𝘭𝘢𝘩𝘬𝘢𝘯 𝘩𝘶𝘣𝘶𝘯𝘨𝘪 𝘢𝘥𝘮𝘪𝘯</p>
                     </div>
-                    <a href="{{ route('pekat.auth', 'facebook') }}" class="btn btn-facebook mb-2"><i class="fa fa-facebook" style="font-size:14px"></i> FACEBOOK</a>
-                    <a href="{{ route('pekat.auth', 'google') }}" class="btn btn-google"><i class="fa fa-google" style="font-size:14px"></i> GOOGLE</a>
+
                 </div>
             </div>
             @if (Session::has('pesan'))

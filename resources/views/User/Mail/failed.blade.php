@@ -11,14 +11,14 @@
 
     <style>
         .btn-purple {
-            background: #6a70fc;
-            border: 1px solid #6a70fc;
+            background: #0d9433;
+            border: 1px #0d9433;
             color: #fff;
         }
 
         .btn-purple:hover {
-            background: #6a70fc;
-            border: 1px solid #6a70fc;
+            background: #0d9433;
+            border: 1px solid #0d9433;
             color: #fff;
         }
 

@@ -57,7 +57,7 @@
 {{-- Section Header --}}
 <section class="header">
     @if (Auth::guard('masyarakat')->check() && Auth::guard('masyarakat')->user()->email_verified_at == null)
-    <div class="row">
+    {{-- <div class="row">
         <div class="col">
             <div class="notification">
                 Konfirmasi email <span class="font-weight-bold">{{ Auth::guard('masyarakat')->user()->email }}</span>
@@ -68,7 +68,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> --}}
     @endif
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
@@ -185,7 +185,7 @@
 <div class="mt-5">
     <hr>
     <div class="text-center">
-        <p class="italic text-secondary">© 2021 Ihsanfrr • All rights reserved</p>
+        <p class="italic text-secondary">Telkom University Surabaya</p>
     </div>
 </div>
 {{-- Modal --}}
@@ -195,7 +195,7 @@
             <div class="modal-body">
                 <h3 class="mt-3">Masuk terlebih dahulu</h3>
                 <p>Silahkan masuk menggunakan akun yang sudah didaftarkan.</p>
-                <label>Gunakan Akun Media Sosial Anda</label>
+                {{-- <label>Gunakan Akun Media Sosial Anda</label>
                 <div class="row">
                     <div class="col">
                         <a href="{{ route('pekat.auth', 'facebook') }}" class="btn btn-facebook mb-2"><i
@@ -205,10 +205,10 @@
                         <a href="{{ route('pekat.auth', 'google') }}" class="btn btn-google"><i class="fa fa-google"
                                 style="font-size:14px"></i> GOOGLE</a>
                     </div>
-                </div>
-                <div class="text-center">
+                </div> --}}
+                {{-- <div class="text-center">
                     <p class="my-2 text-secondary">Atau</p>
-                </div>
+                </div> --}}
                 <form action="{{ route('pekat.login') }}" method="POST">
                     @csrf
                     <div class="form-group">
