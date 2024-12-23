@@ -56,20 +56,6 @@
 @section('content')
 {{-- Section Header --}}
 <section class="header">
-    @if (Auth::guard('masyarakat')->check() && Auth::guard('masyarakat')->user()->email_verified_at == null)
-    {{-- <div class="row">
-        <div class="col">
-            <div class="notification">
-                Konfirmasi email <span class="font-weight-bold">{{ Auth::guard('masyarakat')->user()->email }}</span>
-                untuk melindungi akun Anda.
-                <form action="{{ route('pekat.sendVerification') }}" method="POST" style="display: inline-block">
-                    @csrf
-                    <button type="submit" class="btn btn-white">Verifikasi Sekarang</button>
-                </form>
-            </div>
-        </div>
-    </div> --}}
-    @endif
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container">
             <div class="container-fluid">
