@@ -36,7 +36,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
 RUN npm install
 
 # Run npm build or dev script
-RUN npm run build # Or use npm run dev if you don't want to build
+RUN npm run dev 
 
 # Expose PHP-FPM port
 EXPOSE 9000

@@ -10,12 +10,6 @@ pipeline {
             }
         }
 
-        stage('Sending Dockerfile to Ansible server') {
-            steps {
-                echo "Sending Dockerfile to the Ansible server"
-                sleep 1
-            }
-        }
 
         stage('Docker build image') {
             steps {
@@ -31,19 +25,6 @@ pipeline {
             }
         }
 
-        stage('Copy files from Jenkins to Kubernetes server') {
-            steps {
-                echo "Copying files from Jenkins to the Kubernetes server"
-                sleep 1
-            }
-        }
-
-        stage('Kubernetes deployment using Ansible') {
-            steps {
-                echo "Deploying application to Kubernetes using Ansible"
-                sleep 20
-            }
-        }
     }
 
     post {
